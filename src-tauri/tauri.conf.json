@@ -1,0 +1,40 @@
+{
+  "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
+  "productName": "converter",
+  "version": "0.1.0",
+  "identifier": "com.converter.dev",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:3000",
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn generate"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "converter",
+
+        "width": 800,
+        "height": 600,
+        "resizable": true,
+        "fullscreen": false,
+        "dragDropEnabled": true,
+        "visible": true
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/256x256.png", "icons/icon.icns", "icons/icon.ico"],
+    "resources": ["bin/ffmpeg-x86_64-pc-windows-msvc", "bin/ffprobe-x86_64-pc-windows-msvc"],
+    "externalBin": []
+  }
+}
