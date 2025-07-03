@@ -1,3 +1,5 @@
+![preview](https://github.com/user-attachments/assets/5b96f005-0e34-4039-a969-e696e896c8d6)
+
 # Media Converter
 
 A powerful and intuitive desktop media converter application built with modern technologies. Convert, resize, and compress your images and videos with ease.
@@ -29,18 +31,9 @@ A powerful and intuitive desktop media converter application built with modern t
 
 ### 🚀 User Experience
 
-- **Real-time Preview**: See conversion progress and status
 - **Custom Output Names**: Rename files during conversion
 - **Flexible Output**: Choose destination folders or use defaults
 - **Visual Feedback**: Color-coded status indicators (converting, completed, error)
-
-## 🎨 Interface
-
-### Clean and Intuitive Design
-
-- **File Upload Area**: Drag and drop or click to select files
-- **File List**: View all selected files with thumbnails and details
-- **Options Panel**: Customize conversion settings for each file
 
 ## 🔧 How It Works
 
@@ -50,29 +43,6 @@ A powerful and intuitive desktop media converter application built with modern t
 4. **Convert**: Click convert and watch the progress in real-time
 5. **Done**: Files are saved to your chosen location with visual confirmation
 
-## � Use Cases
-
-### For Content Creators
-
-- Resize images for social media platforms
-- Convert videos to web-friendly formats
-- Compress large files for faster uploads
-- Batch process photo collections
-
-### For Developers
-
-- Optimize images for web applications
-- Convert media assets for different platforms
-- Reduce file sizes for mobile applications
-- Prepare media for content delivery networks
-
-### For General Users
-
-- Reduce photo storage space
-- Convert videos for device compatibility
-- Prepare media for email attachments
-- Archive photos in efficient formats
-
 ## 🏆 Why Choose Media Converter?
 
 - **Fast & Efficient**: Native desktop performance with Rust backend
@@ -81,15 +51,6 @@ A powerful and intuitive desktop media converter application built with modern t
 - **Flexible**: Comprehensive format support and customization options
 - **Safe**: Local processing - your files never leave your computer
 - **Free**: Open source and completely free to use
-
-## 🛠️ Technical Foundation
-
-Built with modern, reliable technologies:
-
-- **Frontend**: Nuxt 3 + Vue.js for responsive UI
-- **Backend**: Tauri + Rust for fast, secure processing
-- **Media Processing**: FFmpeg integration for professional-grade conversion
-- **UI Framework**: Nuxt UI for beautiful, accessible components
 
 ## � Getting Started
 
@@ -101,18 +62,10 @@ Built with modern, reliable technologies:
 
 ### Quick Start
 
-1. **Add Files**: Drag your images or videos into the app
+1. **Add Files**: Select images and videos to convert
 2. **Select Format**: Choose your desired output format
 3. **Adjust Settings**: Set dimensions, quality, and output location
 4. **Convert**: Click the convert button and wait for completion
-
-## � System Requirements
-
-- **Windows**: Windows 10 or later
-- **macOS**: macOS 10.15 or later
-- **Linux**: Most modern distributions
-- **RAM**: 4GB minimum, 8GB recommended
-- **Storage**: 100MB for installation + space for converted files
 
 ## �️ For Developers
 
@@ -137,47 +90,6 @@ yarn tauri:dev
 yarn tauri:build
 ```
 
-## 📁 Project Structure
-
-```
-├── components/           # Vue components
-├── pages/               # Application pages
-├── stores/              # Pinia state management
-├── utils/               # Utility functions
-├── src-tauri/           # Rust backend
-└── types/               # TypeScript definitions
-```
-
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
-
-1. **Report Issues**: Found a bug? Let us know!
-2. **Feature Requests**: Have an idea? We'd love to hear it!
-3. **Code Contributions**:
-   - Fork the repository
-   - Create a feature branch
-   - Make your changes
-   - Test thoroughly
-   - Submit a pull request
-
-### Development Guidelines
-
-- Test with `yarn tauri:dev` before submitting
-- Ensure builds work with `yarn tauri:build`
-- Follow existing code style and patterns
-- Add appropriate documentation
-
-## 📞 Support
-
-- **Issues**: Report bugs or request features on GitHub
-- **Documentation**: Check the wiki for detailed guides
-- **Community**: Join discussions in GitHub Discussions
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-**Download Media Converter today and start converting your media files with ease!**
+### Feel free to use this repo whatever you want

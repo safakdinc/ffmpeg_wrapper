@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   // Configure for Tauri
   ssr: false,
@@ -31,7 +31,9 @@ export default defineNuxtConfig({
       scan: true,
       sizeLimitKb: 512
     },
-    serverBundle: 'local'
+    serverBundle: {
+      collections: ['heroicons']
+    }
   },
 
   // Enhanced color mode configuration
